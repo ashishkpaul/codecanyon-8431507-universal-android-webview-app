@@ -26,7 +26,7 @@
 	-->
 	<string-array name="navigation_url_list">
 		<item></item>
-		<item>https://www.saa9vi.com/index.html</item>
+		<item>https://www.saa9vi.com/</item>
 		<item>http://mock.robotemplates.com/webviewapp/home.html</item>
 		<item>http://mock.robotemplates.com/webviewapp/products.html</item>
 		<item>http://mock.robotemplates.com/webviewapp/references.html</item>
