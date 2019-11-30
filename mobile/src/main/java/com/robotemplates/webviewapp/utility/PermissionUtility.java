@@ -41,7 +41,7 @@ public final class PermissionUtility {
 				REQUEST_PERMISSION_ACCESS_LOCATION);
 	}
 	// mICROPHONE PERMISSION
-	public static boolean checkPermissionAccessLocation(final Fragment fragment) {
+	public static boolean checkPermissionAccessMicrophone(final Fragment fragment) {
 		return check(fragment,
 				new String[]{Manifest.permission.MODIFY_AUDIO_SETTINGS, Manifest.permission.RECORD_AUDIO},
 				new int[]{R.string.permission_access_microphone, R.string.permission_access_microphone},
