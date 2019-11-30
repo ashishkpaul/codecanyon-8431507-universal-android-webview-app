@@ -51,7 +51,7 @@ public class WebViewAppConfig {
 
 	// custom user agent string for the webview,
 	// leave this constant empty if you do not want to set custom user agent string
-	public static final String WEBVIEW_USER_AGENT = "";
+	public static final String WEBVIEW_USER_AGENT = "Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/1.0 Chrome/59.0.3029.83 Mobile Safari/537.36";
 
 	// publisher id and app id for AdMob,
 	// leave these constants empty if you do not want to use AdMob
