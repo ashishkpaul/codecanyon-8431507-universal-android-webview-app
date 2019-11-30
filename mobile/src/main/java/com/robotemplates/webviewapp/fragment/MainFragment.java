@@ -238,6 +238,7 @@ public class MainFragment extends TaskFragment implements SwipeRefreshLayout.OnR
 	public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
 		switch (requestCode) {
 			case PermissionUtility.REQUEST_PERMISSION_READ_EXTERNAL_STORAGE_AND_CAMERA:
+			case PermissionUtility.REQUEST_PERMISSION_ACCESS_MICROPHONE:
 			case PermissionUtility.REQUEST_PERMISSION_WRITE_EXTERNAL_STORAGE:
 			case PermissionUtility.REQUEST_PERMISSION_ACCESS_LOCATION: {
 				// if request is cancelled, the result arrays are empty
