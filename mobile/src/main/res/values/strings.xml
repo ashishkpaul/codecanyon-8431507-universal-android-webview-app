@@ -23,6 +23,7 @@
 	<string name="permission_write_external_storage">Permission to write files is required</string>
 	<string name="permission_access_location">Permission to access your location is required</string>
 	<string name="permission_camera">Permission to access your camera is required</string>
+	<string name="permission_access_microphone">Permission to access your Micro-Phone is required</string>
 
 	<string name="location_settings_snackbar">Device location is disabled</string>
 	<string name="location_settings_confirm">Settings</string>
