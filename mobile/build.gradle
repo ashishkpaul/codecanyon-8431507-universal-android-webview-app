@@ -16,7 +16,7 @@ android {
 	buildToolsVersion "28.0.3"
 
 	defaultConfig {
-		applicationId "com.robotemplates.webviewapp"
+		applicationId "com.saa9vi.classroom"
 		minSdkVersion 16
 		targetSdkVersion 28
 		versionCode getVersionCode(VERSION_MAJOR, VERSION_MINOR, VERSION_PATCH, VERSION_BUILD)
