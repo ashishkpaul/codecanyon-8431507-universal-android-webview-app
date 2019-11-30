@@ -16,6 +16,7 @@ public final class PermissionUtility {
 	public static final int REQUEST_PERMISSION_READ_EXTERNAL_STORAGE_AND_CAMERA = 1;
 	public static final int REQUEST_PERMISSION_WRITE_EXTERNAL_STORAGE = 2;
 	public static final int REQUEST_PERMISSION_ACCESS_LOCATION = 3;
+	public static final int REQUEST_PERMISSION_ACCESS_MICROPHONE = 4;
 
 	private PermissionUtility() {}
 
@@ -38,6 +39,13 @@ public final class PermissionUtility {
 				new String[]{Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION},
 				new int[]{R.string.permission_access_location, R.string.permission_access_location},
 				REQUEST_PERMISSION_ACCESS_LOCATION);
+	}
+	// mICROPHONE PERMISSION
+	public static boolean checkPermissionAccessLocation(final Fragment fragment) {
+		return check(fragment,
+				new String[]{Manifest.permission.MODIFY_AUDIO_SETTINGS, Manifest.permission.RECORD_AUDIO},
+				new int[]{R.string.permission_access_microphone, R.string.permission_access_microphone},
+				REQUEST_PERMISSION_ACCESS_MICROPHONE);
 	}
 
 	private static boolean check(final Fragment fragment, final String permission, final int explanation, final int requestCode) {
