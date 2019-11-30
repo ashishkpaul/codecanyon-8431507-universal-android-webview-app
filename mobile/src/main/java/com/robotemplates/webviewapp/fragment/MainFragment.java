@@ -141,6 +141,11 @@ public class MainFragment extends TaskFragment implements SwipeRefreshLayout.OnR
 		if (WebViewAppConfig.GEOLOCATION) {
 			PermissionUtility.checkPermissionAccessLocation(this);
 		}
+		
+		// check permissions
+		if (WebViewAppConfig.MICROPHONE) {
+			PermissionUtility.checkPermissionAccessMicrophone(this);
+		}
 	}
 
 	@Override
