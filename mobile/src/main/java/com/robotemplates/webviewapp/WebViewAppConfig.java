@@ -32,6 +32,9 @@ public class WebViewAppConfig {
 
 	// true for enabling geolocation
 	public static final boolean GEOLOCATION = true;
+	
+	// true for enabling geolocation
+	public static final boolean MICROPHONE = true;
 
 	// true for enabling progress placeholder when loading a first page
 	public static final boolean PROGRESS_PLACEHOLDER = true;
